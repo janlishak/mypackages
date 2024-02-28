@@ -1,0 +1,24 @@
+{
+  "name": "mypackages",
+  "version": "1.0.0",
+  "description": "1. Create image 2. Create PAT on Github 3. Authenticate GHCR 4. Tag and push our image to GHCR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ambimax/semantic-release-composer": "github:ambimax/semantic-release-composer",
+    "@commitlint/cli": "^19.0.3",
+    "@semantic-release/changelog": "github:semantic-release/changelog",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "github:semantic-release/github",
+    "@semantic-release/npm": "github:semantic-release/npm",
+    "@semantic-release/release-notes-generator": "github:semantic-release/release-notes-generator",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^23.0.2"
+  }
+}
